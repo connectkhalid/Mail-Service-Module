@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+<p>Hello</p><p> Name: <!--/*@thymesVar id="TransactionType" type=""*/-->
+<strong th:text="${TransactionType}"></strong></p>
+<p> Email: <strong th:text="${user.email}"></strong></p>
+<p> Role: <strong th:text="${user.role}"></strong></p>
+<p> Gender: <strong th:text="${user.gender}"></strong></p>
+</body>
+</html>

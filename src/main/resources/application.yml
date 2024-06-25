@@ -1,0 +1,31 @@
+smtp:
+  mail:
+    username:
+    properties:
+      mail:
+        smtp:
+          starttls:
+            enable: true
+          auth: true
+    host: smtp.gmail.com
+    port: 587
+    password:
+
+cloud:
+  aws:
+    region:
+      static:
+      auto: false
+    stack:
+      auto: false
+    credentials:
+      accessKey:
+      secretKey:
+
+sendgrid:
+  api:
+    key:
+
+mail:
+  service:
+    type: smtp
