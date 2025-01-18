@@ -1,7 +1,6 @@
 # MailService
 
 MailService is a versatile email library/module for sending templated and non-templated emails with optional attachments. It offers a simple and easy-to-use API to integrate email sending capabilities into your Java applications.
-[`Maven Central Repository Link`](https://central.sonatype.com/artifact/com.bjitgroup/emailservice)
 
 ## Features
 
@@ -15,7 +14,8 @@ MailService is a versatile email library/module for sending templated and non-te
 
 ## QuickStart
 
-To use MailService in your project, you can include it as a jar or use it as a mudule.
+To use MailService in your project, you can include it as a jar or use it as a module.
+You may alos find this in Maven Central Repository by visiting here- [`Maven Central Repository Link`](https://central.sonatype.com/artifact/com.bjitgroup/emailservice)
 
 ### Configuration
 
